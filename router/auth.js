@@ -29,7 +29,7 @@ router.post('/register', async (req, res)=>{
         console.log(err)
     }
 })
-router.post('/signin', async (req, res)=>{
+router.post('/signinuser', async (req, res)=>{
     try{
         const {email, password} = req.body;
         if(!email || !password)

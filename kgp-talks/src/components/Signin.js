@@ -16,7 +16,7 @@ const Signin = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         console.log("handle SUbmit")
-        const res = await fetch("/signin", {
+        const res = await fetch("/signinuser", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
