@@ -33,7 +33,7 @@ const Postsdisplay = (prop) => {
         getpostsinner();
         // const gpresult = getPosts();
         // console.log("posts from dashboard: ", gpresult);
-    }, [])
+    })
     return (
         <div className="seeposts">
             <div className="card text-center">
