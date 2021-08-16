@@ -19,12 +19,12 @@ const PORT = process.env.PORT || 5000;
 //     res.cookie("Testc", "You are hot and amazing")
 //     res.send("Welcome to the contact page")
 // })
-app.get('/signin', (req, res)=>{
-    res.send("Welcome to the signin page")
-})
-app.get('/signup', (req, res)=>{
-    res.send("Welcome to the signup page")
-})
+// app.get('/signin', (req, res)=>{
+//     res.send("Welcome to the signin page")
+// })
+// app.get('/signup', (req, res)=>{
+//     res.send("Welcome to the signup page")
+// })
 
 if (process.env.NODE_ENV == "production") {
     app.use(express.static("kgp-talks/build"));
